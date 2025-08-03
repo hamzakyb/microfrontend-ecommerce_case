@@ -43,7 +43,7 @@ microfrontend-ecommerce-case/
 
 ## 🛠️ Kurulum ve Çalıştırma
 
-### Docker ile Çalıştırma (Önerilen)
+### Docker ile Çalıştırma 
 
 1. **Tüm uygulamaları Docker ile başlatın:**
    ```bash
@@ -167,18 +167,6 @@ Her uygulama ayrı ayrı Vercel'e deploy edilebilir:
 - **ESLint**: Kod kalitesi için yapılandırılmıştır
 - **Prettier**: Kod formatı için kullanılabilir
 - **Git Hooks**: Commit öncesi kontroller eklenebilir
-
-## 🤝 Katkıda Bulunma
-
-1. Fork yapın
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Commit yapın (`git commit -m 'Add amazing feature'`)
-4. Push yapın (`git push origin feature/amazing-feature`)
-5. Pull Request oluşturun
-
-## 📄 Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 👥 Geliştirici
 
