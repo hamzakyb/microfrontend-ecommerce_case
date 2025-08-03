@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  home:
+    build:
+      context: ./home
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - microfrontend-network
+
+  cart:
+    build:
+      context: ./cart
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+    networks:
+      - microfrontend-network
+
+networks:
+  microfrontend-network:
+    driver: bridge 
